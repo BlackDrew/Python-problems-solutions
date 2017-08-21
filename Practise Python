@@ -1,0 +1,4 @@
+#8
+import random
+
+print([x for x in set(random.sample(range(100), 20)) for y in set(random.sample(range(100), 10)) if x == y])
